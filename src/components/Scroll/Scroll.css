@@ -1,0 +1,68 @@
+.scroll-container{
+    position: relative;
+    display:flex;
+    width:100%;
+    height: 15vh;
+}
+
+.sc-head1{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40%;
+   height:100%;
+   margin:0;
+   color:white;
+   font-size: 10px;
+}
+
+.sc-head2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height:100%;
+    margin:0;
+    color:white;
+    font-size: 10px;
+ }
+
+ .sc-arrow{
+     position: relative;
+     width:20%;
+     height:100%;
+     margin:0;
+     
+ }
+
+.scroll-arrow{
+    position: absolute;
+    width:22px;
+    top: 45%;
+    left:50%;
+    transform: translate(-50% , -50%);
+}
+
+.scroll-container img:hover{
+    background-color: white;
+    fill:black;
+    border-radius: 50%;
+}
+
+.scroll-animation{
+    top:60%;
+}
+
+@media (max-width:700px){
+    .sc-head1{
+        justify-content: flex-end;
+        font-size: 8px;
+     }
+     
+     .sc-head2{
+        justify-content: flex-start;
+         font-size: 8px;
+      }
+}

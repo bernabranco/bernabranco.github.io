@@ -1,0 +1,43 @@
+
+.vp-container{
+ position: relative;
+ width: 100%;
+ height: 10vh;
+ background-color: #111111;
+ margin-top: 10vh;
+ padding: 50px;
+}
+
+.vp-text-container{
+  position: relative;
+  display: inline-block;
+  width:50%;
+  height:100%;
+}
+
+.vp-text{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  margin:0;
+  color:white;
+}
+  
+.vp-icon-container{
+   position: relative;
+   display: inline-block;
+   width:50%;
+   height:100%;
+}
+
+.vp-icon{
+    position: absolute;
+    left:10%;
+    width:50px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.vp-icon-animation{
+    left:0%;
+}

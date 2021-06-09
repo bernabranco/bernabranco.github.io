@@ -1,0 +1,55 @@
+.container{
+        position: relative;
+        top:0;
+        width:100%;
+        height:70vh;
+        background-size: cover;
+}
+
+.text{
+    margin-left: 50vw;
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 2vw;
+    font-weight: 100;      
+}
+
+.heading{
+    margin-left: 50vw;
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+.text-container{
+    padding-top:10vh;
+}
+
+.button-container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom:7vh;
+}
+
+.button{
+    position: relative;
+    width:20px;
+    height:20px;
+    margin-left:2%;
+    margin-right:2%; 
+    border-radius: 50%;
+    border-color: transparent;
+    outline: none;
+    opacity: 70%;
+}
+
+.button:hover{
+  opacity: 100%;
+}
+
+.button:outline{
+    opacity: 100%;
+}

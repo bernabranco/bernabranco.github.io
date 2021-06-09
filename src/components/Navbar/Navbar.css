@@ -1,0 +1,61 @@
+.navBar{
+   position: relative;
+   width: 100%;
+   background-color: black;
+   height: 75px;
+}
+
+.containerLogo{
+    position: absolute;
+    width:25%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navLogo {
+    font-size: 20px;
+    color:white;
+    margin-left:3vw;
+    font-weight: bold;
+}
+
+.containerItems{
+    position: absolute;
+    width:75%;
+    top: 50%;
+    right:0px;
+    transform: translateY(-50%);
+    padding-right:2vw;
+}
+
+.navItems{
+    position: relative;
+    width:7%;
+    float: right;
+    color:white;
+    text-align: center;
+    border-radius: 50px;
+    transition: ease-in-out 0.2s;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+
+ }
+
+ .navItems-active{
+    position: relative;
+    width:18%;
+    float: right;
+    color:black;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    transition: ease-in-out 0.2s;
+    font-size: 14px;
+ }
+
+ .navItems:hover{
+     background-color: white;
+     color: black;
+ }
+
